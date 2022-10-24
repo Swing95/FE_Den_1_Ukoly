@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3. Úkol</title>
+</head>
+<body>
+    <h1>ÚKOL - LEVEL 3</h1>
+    <a href="index.html">Úvodní stránka</a>
+    <ul>
+        <li>Vytvoř očíslovaný seznam s 5 barvami</li>
+        <li>Vytvoř tabulku, která bude mít v headeru id, jméno, příjmení, email a datum registrace</li>
+        <li>Přidej do tabulky aspoň dva řádky</li>
+    </ul><hr>
+
+    <h2>Barvy</h2>
+
+    <ol reversed start="100">
+        <li>Modrá <input type="radio" name="barvy"></input></li>
+        <li>Červená <input type="radio" name="barvy"></input></li>
+        <li>Bílá <input type="radio" name="barvy"></input></li>
+        <li>Žlutá <input type="radio" name="barvy"></input></li>
+        <li 
+            style="background-color: pink; 
+            color: rgb(238, 6, 168);"
+            >Žůžová
+            <input type="radio" name="růžová" checked></input></li>
+    </ol>
+
+    <h3>Tabulka</h3>
+    <!-- table>thead>tr>th*5 -->
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Jméno</th>
+                <th>Příjmení</th>
+                <th>E-mail</th>
+                <th>Datum registrace</th>
+            </tr>
+        </thead>
+    </table>
+
+    <!-- table>thead>tr>td*5 -->
+    <table>
+        <thead>
+            <tr>
+                <td>1</td>
+                <td>David</td>
+                <td>Gamba</td>
+                <td>gamba.d@seznam.cz</td>
+                <td>24.10.2022</td>
+            </tr>
+        </thead>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <td>2</td>
+                <td>Dan</td>
+                <td>Pan</td>
+                <td>danpan@seznam.cz</td>
+                <td>21.12.2021</td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>

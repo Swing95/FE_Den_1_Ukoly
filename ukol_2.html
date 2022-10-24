@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2. Úkol</title>
+</head>
+<body>
+    <h1>ÚKOL - LEVEL 2</h1>
+    <a href="index.html">Úvodní stránka</a>
+    <ul>
+        <li>Na přihlašovací formulář pod hlavičku přidej obrázek</li>
+        <li>Přidej registrační formulář, který bude obsahovat email, jméno, příjmení, heslo, potvrdit heslo</li>
+        <li>Přidej tlačítko registrovat a odkaz na přihlášení s textem “už mám účet”</li>
+        <li>Na přihlášení přidej odkaz, který bude směřovat na registrační formulář s textem “ješte nemám účet”</li>
+    </ul>
+    <hr>
+
+    <form action="/registrace" method="post">
+    <h2>Přihlášení</h2>
+    <img src="spidey.jpg" alt="Spidroš" height="200" width="200">
+        <br>
+        <span class="form-group">
+            <label for="jmenoprimeni">Jméno a příjmení:</label>
+            <input type="Pepa Vojtěch">
+        </span>
+        <br><br>
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" placeholder="Zadej svůj e-mail" name="email" value="@">
+        </div>
+        <br>
+        <div class="form-group">
+            <label>
+                Heslo:
+                <input type="password" placeholder="•••••••"><br><br>
+                Potvrdit heslo:
+                <input type="password" placeholder="•••••••">
+            </label>
+        </div>
+    
+        <br>
+        <button type="submit">Přihlásit</button>
+        <br><br>
+        <button type="button">Registrovat</button><a href="ukol_1.html">Už mám účet</a>
+    </form>
+
+
+    <div class="box">
+        <iframe
+            width="530"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/kUs2cDMmTV4?autoplay=1" 
+            title="YouTube video player"
+            align="center"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="box">
+        <iframe 
+            width="1"
+            height="1"
+            src="https://www.youtube-nocookie.com/embed/kUs2cDMmTV4?autoplay=1" 
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+            allowfullscreen>
+            </iframe>
+    </div>
+
+</body>
+</html>

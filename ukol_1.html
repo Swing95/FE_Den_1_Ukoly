@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1. Úkol</title>
+</head>
+<body>
+    <h1>ÚKOL - LEVEL 1</h1>
+    <!-- ul>li*3 -->
+    <a href="index.html">Úvodní stránka</a>
+    <ul>
+        <li>Vytvoř přihlašovací formulář, který bude obsahovat input pro heslo a email</li>
+        <li>Bude mít tlačítko přihlásit</li>
+        <li>Nad formulářem bude hlavička s názvem Příhlášení</li>
+    </ul>
+    <hr>
+    
+    <form action="/registrace" method="post">
+    <h2>Přihlášení</h2>
+    
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" placeholder="Zadej svůj e-mail" name="email" value="@">
+        </div>
+        <br>
+        <div class="form-group">
+            <label>
+                Heslo:
+                <input type="password" placeholder="•••••••">
+            </label>
+        </div>
+        
+        <br>
+        <button type="button">Přihlásit</button><br><br>
+
+        <a href="ukol_2.html">Ještě nemám účet</a><br>
+
+        </form>
+
+</body>
+</html>
